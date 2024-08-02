@@ -3157,6 +3157,22 @@
         "value_type": "str"
     },
     {
+        "default_value": "",
+        "description": "Cellranger Multi ID",
+        "key_translations": {
+            "cellranger_style_1": "--id",
+            "ursgal_style_1": "id"
+        },
+        "name": "cellranger_id",
+        "tag": [
+            "transcriptomics",
+            "cellranger"
+        ],
+        "triggers_rerun": true,
+        "value_translations": {},
+        "value_type": "str"
+    },
+    {
         "default_value": 1.007276466621,
         "description": "Charge carrier mass (default is mass of a proton)",
         "key_translations": {
@@ -4365,6 +4381,22 @@
         "name": "cross_link_definition",
         "tag": [
             "cross_linking"
+        ],
+        "triggers_rerun": true,
+        "value_translations": {},
+        "value_type": "str"
+    },
+    {
+        "default_value": "",
+        "description": "Path to csv",
+        "key_translations": {
+            "cellranger_style_1": "--csv",
+            "ursgal_style_1": "csv"
+        },
+        "name": "csv",
+        "tag": [
+            "transcriptomics",
+            "cellranger"
         ],
         "triggers_rerun": true,
         "value_translations": {},
@@ -10600,7 +10632,10 @@
             "ursgal_style_1": "jobmode"
         },
         "name": "jobmode",
-        "tag": ["transcriptomics", "cellranger"],
+        "tag": [
+            "transcriptomics",
+            "cellranger"
+        ],
         "triggers_rerun": true,
         "value_translations": {},
         "value_type": "str"
@@ -15691,7 +15726,8 @@
         },
         "name": "project",
         "tag": [
-            "transcriptomics", "cellranger"
+            "transcriptomics",
+            "cellranger"
         ],
         "triggers_rerun": true,
         "value_translations": {},
@@ -16738,7 +16774,10 @@
             "ursgal_style_1": "run"
         },
         "name": "run",
-        "tag": ["transcriptomics", "cellranger"],
+        "tag": [
+            "transcriptomics",
+            "cellranger"
+        ],
         "triggers_rerun": true,
         "value_translations": {},
         "value_type": "str"
@@ -16913,7 +16952,10 @@
             "ursgal_style_1": "samplesheet"
         },
         "name": "samplesheet",
-        "tag": ["transcriptomics", "cellranger"],
+        "tag": [
+            "transcriptomics",
+            "cellranger"
+        ],
         "triggers_rerun": true,
         "value_translations": {},
         "value_type": "str"
